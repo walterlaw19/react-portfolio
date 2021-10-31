@@ -1,38 +1,347 @@
-.App {
+/* HEADER */
+header {
+  padding: 20px 35px;
+  background-color: #c6eae3;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  top: 0;;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw; 
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* BODY */
+body {
+  background-color: rgba(142,215,198, 0.7);
+}
+
+body h1 {
+  color:#c9868c;
+}
+
+/* SUBTITLE */
+.subtitle {
+  padding: 50px;
+  background-color: teal;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  width: 200px;
+  height: 300px;
+  text-align: left;   
+}
+
+.cool-subtitle {
+  text-align: right;
+}
+
+.cool-subtitle h2 {
+  color: #804000;
+}
+
+/* SECTION(S)! */
+.section-h2 {
+  size: 40px;
   text-align: center;
+  width: 100px;
+  color: #575858; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.section-h2 h2 {
+  border-bottom: ivory;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+section p {
+  size: 20px;
+  padding: 45px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* SECTION KNOW ME */
+.know-me {
+  display: flex;
+}
+
+.know-me p {
+  color: #804000;
+  font-style: italic;
+  font-size: 20px;
+}
+
+/* SECTION PROJECT */
+.projects {
+  display: flex;
+}
+
+.main-website {
+  width: 100%;
+  border: 1px solid black;
+  height: 200px;
+}
+
+.main-website a, .rows a {
+  color: green;
+  padding: 0 10px;
+  background-color: yellow;
+}
+
+.website {
   display: flex;
   flex-direction: column;
+  width: 100%;
+}
+
+.row-websites {
+  display: flex;
+  width: 100%;
+}
+
+.rows {
+  border: 1px solid black;
+  height: 100px;
+  width: 50%;
+  color: green;
+  padding: 0 10px;
+  background: yellow;
+}
+ 
+#run-buddy-pic { 
+  /* background: url("../images/hero-bg.jpeg"); */
+  background-size: cover;
+  background-position: center;
+  background-position: 80%;
+  background-repeat: no-repeat;
+}
+ 
+#coderefactorpic {
+  /* background: url("../images/digital-marketing-meeting.jpg"); */
+  background-size: cover;
+  background-position: 75% 17%;
+}
+
+#lucassoccer {
+  /* background: url("../images/lucassoccer.jpg"); */
+  background-size: cover;
+  background-position: 75% 17%;
+}
+
+#waltersinging {
+  /* background: url("../images/WalterSinging.jpg"); */
+  background-size: cover;
+  background-position: 75% 35%;
+}
+
+#fathercubillas {
+  /* background: url("../images/Father&Cubillas.jpeg"); */
+  background-size: cover;
+  background-position: 70% 13%;
+}
+
+#password-generator {
+  /* background: url("../images/password-generator.png"); */
+  background-size: cover;
+  background-position: 70% 35%;
+}
+
+#code-quiz {
+  /* background: url("../images/code-quiz.PNG"); */
+  background-size: cover;
+  background-position: 70% 35%;
+}
+
+#work-day-scheduler {
+  /* background: url("../images/work-day-scheduler.PNG"); */
+  background-size: cover;
+  background-position: 70% 35%;
+}
+
+#weather-dashboard {
+  /* background: url("../images/weather-dashboard.PNG"); */
+  background-size: cover;
+  background-position: 70% 35%;
+}
+
+#nptp {
+  /* background: url("../images/national-park-trip-planner.PNG"); */
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+#dream-home {
+  /* background: url("../images/dream-home.PNG"); */
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+/* SECTION MY INFO */
+.my-info {
+  display: flex;
+  width: 100%;   
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
+  flex-wrap: wrap; 
+}
+.contacts div {
+  border-bottom: solid blue 5px;
+  text-align: center;
+  color: #804000;
 }
 
-.App-link {
-  color: #61dafb;
+footer {
+  text-align: center
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* the end of CSS Style*/
+
+
+
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
   }
-  to {
-    transform: rotate(360deg);
+  
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+  
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+  .know-me {
+    width: 80%;
+  }
+    
+  .projects {
+    flex: 0 70%;
+  }
+    
+  .my-info{
+    flex: 1 100%;
+  }
+
+  footer h4  {
+    text-align: center;
+    width: 100%;
   }
 }
+  
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+  
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+  
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  header nav ul li a {
+    font-size: 30px;
+  }
+
+  section {
+    padding: 30px 15px;
+    font-size: 20px;
+  }
+      
+  .know-me {
+    flex: 1 100%;
+    text-align: center;
+  }
+      
+  .projects {
+    flex: 2 100%;
+    text-align: center;
+    justify-content: center;
+  }
+  .main-website, .rows {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .contacts {
+    font-size: 25px;
+    flex-wrap: wrap;
+  }
+}
+  
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+  header nav ul li a {
+    font-size: 40px;
+  }
+
+  .know-me p {
+    font-size: 30px;
+    flex-wrap: wrap;
+  }
+
+  .main-website, .rows {
+    font-size: 15px;
+    text-align: start;
+  }
+
+  .contacts {
+    font-size: 20px;
+    flex-wrap: wrap;
+  }
+}
+
+
