@@ -199,6 +199,13 @@ section p {
 }
 
 
+/* Resume styling */
+
+#title-resume {
+  text-align: center;
+
+}
+
 
 
 
@@ -226,6 +233,8 @@ section p {
 footer {
   text-align: center
 }
+
+
 
 /* the end of CSS Style*/
 
