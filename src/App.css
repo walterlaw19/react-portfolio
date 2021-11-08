@@ -1,7 +1,7 @@
 /* HEADER */
 header {
   padding: 20px 35px;
-  background-color: #c6eae3;
+  background-color: li;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -103,7 +103,7 @@ section p {
 }
 
 .main-website a, .rows a {
-  color: green;
+  color: grey;
   padding: 0 10px;
   background-color: yellow;
 }
@@ -123,7 +123,7 @@ section p {
   border: 1px solid black;
   height: 100px;
   width: 50%;
-  color: green;
+  color: grey;
   padding: 0 10px;
   background: yellow;
 }
