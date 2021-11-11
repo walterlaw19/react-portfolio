@@ -1,22 +1,65 @@
 import react from "react";
 
-import { Button } from "react-bootstrap";
+import { Button, Col, Container, ListGroup, Row } from "react-bootstrap";
+
+
+const display = {
+    // margin: "15%",
+    // justifyContent: "space-evenly",
+    // display: "flex",
+
+}
 
 function Resume() {
 
     return (
-        <>
+        <Container>
+            <Row className="mb-2">
+                <Col>
 
-            <h2 id="title-resume">
-                Resume
-                Rahway, NJ
-            </h2>
-            <div>I am looking for a challenging company where I can put my legal skills to the test each day. Authorized to work in the US for any employer
-            </div>
-            <h3>Work Experience none</h3>
-            
-            
-        </>
+                    <h2>
+                        My Resume:
+                    </h2>
+                    <Button variant="dark" href="https://drive.google.com/file/d/1EIg5IzDUsO8J7pohhdEz0QJ0A3E6Ga5b/view?usp=sharing" size="lg"> Download </Button>
+
+                </Col>
+
+
+
+            </Row>
+
+            <Row>
+                <Col>
+                    <h3>
+                        Proficiencies
+                    </h3>
+                    <ListGroup>
+                        <ListGroup.Item as="li">HTML, CSS</ListGroup.Item>
+                        <ListGroup.Item as="li">Javascript</ListGroup.Item>
+                        <ListGroup.Item as="li">JQuery, BootStrap, Materialize</ListGroup.Item>
+                        <ListGroup.Item as="li">React</ListGroup.Item>
+                        <ListGroup.Item as="li">MySQL, Sequelize, Mongooose, MongoDB</ListGroup.Item>
+                        <ListGroup.Item as="li">API's, REST</ListGroup.Item>
+                        <ListGroup.Item as="li">Node, Express</ListGroup.Item>
+                      
+
+
+
+                    </ListGroup>
+
+                </Col>
+
+
+            </Row>
+
+
+
+
+
+
+
+
+        </Container>
     )
 
 }
