@@ -24,7 +24,7 @@ This is my very first Portfolio created with React!
 ## Deployment
 
 click here to view the application:
-http://localhost:3000/react-portfolio#about-me
+https://walterlaw19.github.io/react-portfolio/
 
 ## Usage
 You can use React to create dynamic applications such as your own portfolio to attract potential employers.
