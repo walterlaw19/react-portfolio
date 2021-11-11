@@ -19,7 +19,7 @@ This is my very first Portfolio created with React!
 ![](Readme-images/screenshot1.PNG)"Current income"
 ![](Readme-images/screenshot2.PNG) "Posting transaction offline"
 ![](Readme-images/screenshot3.PNG) "message the transaction has been recorded"
-![](Readme-images/screenshot4.PNG) "Transaction adjusted after back online"
+![](Readme-images/screenshot4.PNG) "Transaction adjusted after back onlinee"
 
 ## Deployment
 
