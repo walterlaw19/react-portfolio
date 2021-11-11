@@ -1,5 +1,7 @@
 import react from "react";
 
+import { Button } from "react-bootstrap";
+
 function Resume() {
 
     return (
