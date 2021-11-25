@@ -12,6 +12,36 @@ function Portfolio() {
         //     link:,
         //     title:
         // }
+        {
+            id: "nptp",
+            link: "https://miraj00.github.io/National-Park-Trip-Planner/",
+            title: "National-Park-Trip-Planner"
+        },
+        {
+            id: "dream-home",
+            link: "https://sheltered-eyrie-12242.herokuapp.com/",
+            title: "Dream Home"
+        },
+        {
+            id: "nptp",
+            link: "https://miraj00.github.io/National-Park-Trip-Planner/",
+            title: "National-Park-Trip-Planner 1"
+        },
+        {
+            id: "dream-home",
+            link: "https://sheltered-eyrie-12242.herokuapp.com/",
+            title: "Dream Home 1"
+        },
+        {
+            id: "nptp",
+            link: "https://miraj00.github.io/National-Park-Trip-Planner/",
+            title: "National-Park-Trip-Planner 2"
+        },
+        {
+            id: "dream-home",
+            link: "https://sheltered-eyrie-12242.herokuapp.com/",
+            title: "Dream Home 2"
+        }
     ]
 
     return (
@@ -34,50 +64,63 @@ function Portfolio() {
                         weather
                     </div> */}
 
+                    {/* {
+                        myProjects.map((project, index) => {
+                            const firstItem = project;
+                            const secondItem = myProjects[index + myProjects.length/2]
+
+                            if(index < myProjects.length/2) {
+                                return (
+                                    <>
+                                        <div class="row-websites">
+    
+                                            <Project id={firstItem.id} link={firstItem.link} title={firstItem.title} />
+    
+                                            <Project id={secondItem.id} link={secondItem.link} title={secondItem.title} />
+                                        </div>
+                                    </>
+                                )
+                            } else {
+                                return;
+                            }
+                        })
+                    } */}
+
+
 
                     <div class="row-websites">
-                        {/* <div id="coderefactorpic" class="rows">
-                            <a href="https://walterlaw19.github.io/CodeRefactor/" target="blank" title="Refactor"> CodeRefactor</a>
-                        </div> */}
-                        <Project id={"nptp"} link={"https://miraj00.github.io/National-Park-Trip-Planner/"} title={"National-Park-Trip-Planner"} />
 
+                        <Project id={"global-trade"} link={"https://still-eyrie-57534.herokuapp.com/"} title={"global-trade"} />
 
-                        {/* <div id="password-generator" class="rows">
-                            <a href="https://walterlaw19.github.io/Password-generator/" target="blank" title="Password Generator">Password Generator</a>
-                        </div> */}
                         <Project id={"dream-home"} link={"https://sheltered-eyrie-12242.herokuapp.com/"} title={"Dream Home"} />
                     </div>
 
 
                     <div class="row-websites">
-
-                        {/* <div id="code-quiz" class="rows">
-                            <a href="https://walterlaw19.github.io/code-quiz/" target="blank" title="Code Quiz">Code Quiz</a>
-                        </div> */}
-                        <Project id={"budget-tracker"} link={"https://shrieking-crypt-06375.herokuapp.com/"} title={"budget-tracker"} />
+                        <Project id={"nptp"} link={"https://miraj00.github.io/National-Park-Trip-Planner/"} title={"National-Park-Trip-Planner"} />
 
 
-                        {/* <div id="work-day-scheduler" class="rows">
-                            <a href="https://walterlaw19.github.io/Work-Day-Scheduler/" target="blank" title="Work Day Scheduler">Work-Day-Scheduler</a>
-                        </div> */}
+
+
                         <Project id={"tech-blog"} link={"https://walt-first-tech-blog.herokuapp.com/"} title={"tech-blog"} />
 
 
                     </div>
 
                     <div class="row-websites">
+
+                        <Project id={"budget-tracker"} link={"https://shrieking-crypt-06375.herokuapp.com/"} title={"budget-tracker"} />
+
                         <Project id={"employee-tracker"} link={"https://shrieking-crypt-06375.herokuapp.com/"} title={"employee-tracker"} />
 
-                        {/* <div id="weather-dashboard" class="rows">
-                            <a href="https://walterlaw19.github.io/weather-dashboard/" target="blank" title="weather-dashboard">Weather Dashboard</a>
-                        </div> */}
-                        <Project id={"weather"} link={"https://walterlaw19.github.io/weather-dashboard/"} title={"weather"} />
 
 
-                        {/* <div id="fathercubillas" class="rows">
-                            <a href="https://shrieking-crypt-06375.herokuapp.com/" target="_blank" title="budget-tracker">Budget Tracker</a>
-                        </div> */}
+
+
                     </div>
+
+
+
 
                 </div>
             </section>
