@@ -23,7 +23,7 @@ function About() {
                 <div class="section-h2">
                     <h2>About Me</h2>
                 </div>
-                <p>I am a Full stack Web App Developer student from Rutgers Bootcamp. <br />
+                <p>I am a Full stack Web App Developer graduate from Rutgers Bootcamp. <br />
                     I have complete knowledge in HTML, CSS & Javascript. <br />
                     I will also gain skills in Node.js, OOP, Express.js & SQL among others. <br />
                     I have the will to excel at this career as I am a hard-worker and always eager to master new abilities<br />
